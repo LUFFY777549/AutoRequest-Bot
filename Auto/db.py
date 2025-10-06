@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
-MONGO_URL = "YOUR_MONGO_URL"
+MONGO_URL = "mongodb+srv://sufyan532011:5042@auctionbot.5ms20.mongodb.net/?retryWrites=true&w=majority&appName=AuctionBot"
 mongo = AsyncIOMotorClient(MONGO_URL)
 db = mongo["AutoApprovalBot"]
 
