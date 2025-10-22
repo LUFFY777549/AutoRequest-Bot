@@ -8,9 +8,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
         [InlineKeyboardButton("➕ ADD ME TO YOUR CHANNEL", url="https://t.me/AlphaXRequestBot?startchannel=true")],
-        [InlineKeyboardButton("➕ ADD ME TO YOUR GROUP", url="https://t.me/AlphaXRequestBot
-?startgroup=true")]
-    ]
+        [InlineKeyboardButton("➕ ADD ME TO YOUR GROUP", url="https://t.me/AlphaXRequestBot")]
 
     await update.message.reply_photo(
         "https://files.catbox.moe/1vkwk6.jpg",
